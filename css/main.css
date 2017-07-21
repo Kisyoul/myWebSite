@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.eot');
@@ -23,7 +24,8 @@ hr {
 }
 header {
     padding-top: 50px;
-    background: #186384;
+    padding-bottom: 50px;
+    background: #03A9F4;
 }
 h1 {
     font-size: 90px;
@@ -43,14 +45,27 @@ h4 {
     max-width: 100%;
     max-height: 450px;
     text-align: center;
-    vertical-align: middle;
+}
+.middle {
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 
+}
+.polaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:  20px;
+  margin: 20px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
 }
 .intro {
     text-align: center;
 }
 .name {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     /*text-indent:45px;*/
 }
@@ -59,10 +74,7 @@ h4 {
     text-align: center;
     /*text-indent: 95px;*/
 }
-header {
-    padding-bottom: 20px
 
-}
 .painting {
     background: #f5f5f5;
 }
@@ -70,8 +82,12 @@ button {
     border: 0px solid white !important;
     font-size: 25px;
     margin-top: 35px;
-    background-color: #186384;
+    border-radius: 10%;
+    background-color: #03A9F4;
 
+}
+.roughDraft {
+    background: #FFFF8D;
 }
 @media screen and (max-width: 768px) {
     header .container {
@@ -91,5 +107,3 @@ button {
     span {
         padding-top: 0px;
     }
-
-}
