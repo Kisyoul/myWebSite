@@ -11,12 +11,12 @@ it's my first time upload my project to GitHub.
 Paintings now accomplished:
 
 * Takanashi **Rikka** 2017.6.15 by **SAI**
-
 * Kato **Megumi** 2017.6.29 by **SAI**
-
 * Izumi **Sagiri** 2017.7.19 by **SAI**
 
-*  **Rough_Saber** 2017.6.26 by **CSP**
+Paintings not accomplished:
+
+* **Rough_Saber** 2017.6.26 by **CSP**
 
   ​
 
