@@ -12,22 +12,7 @@
 body {
     z-index: 1;
 }
-.TOPBUTTOM {
-    z-index: 2;
-    color: white;
-    text-align: center;
-    background-color: #0288D1;
-    position: fixed;
-    right: 100px;
-    bottom: 100px;
-    height: 100px;
-    width: 100px;
-    padding: 25px;
-    padding-left: 30px;
-    font-size: 50px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 hr {
     size: 10px;
     border: solid;
@@ -104,6 +89,22 @@ h4 {
 }
 .roughDraft {
     background: #FFFF8D;
+}
+.TOPBUTTOM {
+    z-index: 2;
+    color: white;
+    text-align: center;
+    background-color: #0288D1;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    padding-left: 30px;
+    font-size: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (max-width: 768px) {
     header .container {

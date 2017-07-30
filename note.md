@@ -27,3 +27,24 @@ HTML和CSS的课程我看过很多了之后还是选择了**udacity**提供的*H
 
 * MarkDown中文文档：http://www.appinn.com/markdown/#p 
 
+####第二个网页
+
+第二个网页也就是这个网页，我试了一下通过一个*button*按钮进行跳转，花了不少时间才把Button按钮的样式调好，不过效果还不错。其中用到的关键样式主要是
+
+    position：fixed;		
+
+这个样式 用来把组件以相对位置在viewport中显示，固定在屏幕的一个角落，搭配使用的还有right(left,top,bottom)："x"px;,等等，**注意，在right和left或top和bottom同时存在时，会引发冲突。在我使用***Glyphicons 字体图标*** 时，图标自带的css其中有top：1px。我不太清楚这个样式到底有什么用处，但是在与我使用
+
+    right：100px;
+    bottom: 100px;
+
+**用来把button固定在屏幕右下角时产生了冲突。以至于没有生效，后来我发现我把class设在图标的span上了，简直蠢，只要把class设在button上就不会有冲突了。**
+
+
+### JavaScript
+
+JavaScript个人感觉是Web前端三大语言里面最难的一个。暂时还没有着落。
+
+
+             ©2017 Ryunosuke. All rights reserved
+ 
