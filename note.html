@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>note.md</title><link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}.CodeMirror { height: auto; }
+<title>note.md</title><link rel="stylesheet" type="text/css" href="css/notecss.css"><link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script><link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}.CodeMirror { height: auto; }
 .CodeMirror-scroll { overflow-y: hidden; overflow-x: auto; }
 .CodeMirror-lines { padding: 4px 0px; }
 .CodeMirror pre { }
@@ -236,7 +238,7 @@ a.md-print-anchor { border-width: initial !important; border-style: none !import
 @include-when-export url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 /**
- * css forked from https://github.com/GitbookIO/gitbook 
+ * css forked from https://github.com/GitbookIO/gitbook
  * www.gitbook.com
  * Apache License
  * https://github.com/GitbookIO/gitbook/blob/master/LICENSE
@@ -592,7 +594,7 @@ tt {
 	color: inherit;
 }
 
-.md-toc { 
+.md-toc {
     margin-top:20px;
     padding-bottom:20px;
 }
@@ -625,6 +627,7 @@ header, .context-menu, .megamenu-content, footer{
 
 </style>
 </head>
+<a href="index.html"><div class="TOPBUTTOM"><span class="glyphicon glyphicon-home"></span></div></a>
 <body class='typora-export' >
 <div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>我的笔记</h1><p>这篇笔记是由纯<strong>MarkDown</strong>语法写成后导出的<em>HTML</em>，使用的是<strong>MarkDown</strong>编辑器<strong><em>Typora</em></strong>。</p><p>这篇笔记用来记录我制作网站的过程。网站的是<strong><em>URL</em></strong>：<strong>ryunosuke.pro</strong>.</p><p>整个网站是在我的学习过程中完成的，我写下这篇笔记供以后的自己和想要参考的朋友参考。另外给自己一些乐趣，想到什么写下什么。</p><blockquote><p>最关键的不是一天就要学多少，最关键的是一直坚持下去，从中找到乐趣</p></blockquote><h3><a name='header-n11' class='md-header-anchor '></a>Html 和 CSS</h3><p>HTML和CSS的课程我看过很多了之后还是选择了<strong>udacity</strong>提供的<em>HTML和CSS入门</em>，在这里附上链接：</p><ul><li><a href='https://cn.udacity.com/course/intro-to-javascript--ud803' target='_blank' >https://cn.udacity.com/course/intro-to-javascript--ud803</a> 官方提供中文字幕。</li></ul><p>前端框架选择了<strong>BootStrap</strong>(其实是课程内要求使用的Bootstrap哈哈哈)，确实很好用。
 附上中文官网地址,包含详细的文档</p><ul><li>下载地址: <a href='http://v3.bootcss.com' target='_blank' >http://v3.bootcss.com</a></li></ul><p>另外,<strong>BootStrap</strong>还免费提供好用的<strong><em>Glyphicons 字体图标</em></strong> ，我最喜欢的组建之一。</p><p>另外希望我的绘画也会一直坚持下去，我的目标是自己练一首吉他曲子来当做网站的背景音乐.目前在练的是<em>RADWIMPS</em>的《<strong>なんでもないや</strong>》。要加油</p><p>另外这篇Markdown语法也是我在边查语法的过程中边写的。</p><ul><li>MarkDown中文文档：<a href='http://www.appinn.com/markdown/#p' target='_blank' >http://www.appinn.com/markdown/#p</a> </li></ul><h4><a name='header-n35' class='md-header-anchor '></a>第二个网页</h4><p>第二个网页也就是这个网页，我试了一下通过一个<em>button</em>按钮进行跳转，花了不少时间才把Button按钮的样式调好，不过效果还不错。其中用到的关键样式主要是</p><pre class='md-fences mock-cm' style='display:block;position:relative'>position：fixed;		</pre><p>这个样式 用来把组件以相对位置在viewport中显示，固定在屏幕的一个角落，搭配使用的还有right(left,top,bottom)：&quot;x&quot;px;,等等，<strong>注意，在right和left或top和bottom同时存在时，会引发冲突。在我使用*</strong>Glyphicons 字体图标*** 时，图标自带的css其中有top：1px。我不太清楚这个样式到底有什么用处，但是在与我使用</p><pre class='md-fences mock-cm' style='display:block;position:relative'>right：100px;
